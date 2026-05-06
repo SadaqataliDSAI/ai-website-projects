@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenssair Technologies | High-Tech Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo-container">
+                <div class="logo">
+                    <div class="logo-text">JENSSAIR</div>
+                    <div class="logo-subtitle">TECHNOLOGIES</div>
+                </div>
+                <div class="tech-glow"></div>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link"><i class="fas fa-info-circle"></i> About</a></li>
+                <li class="dropdown">
+                    <a href="#services" class="nav-link"><i class="fas fa-cogs"></i> Services <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#data-analytics"><i class="fas fa-chart-bar"></i> Data Analytics</a>
+                        <a href="#data-science"><i class="fas fa-database"></i> Data Science</a>
+                        <a href="#ai-engineering"><i class="fas fa-robot"></i> AI Engineering</a>
+                        <a href="#ai-automation"><i class="fas fa-cogs"></i> AI Automation</a>
+                        <a href="#agentic-ai"><i class="fas fa-brain"></i> Agentic AI</a>
+                        <a href="#robotic-ai"><i class="fas fa-industry"></i> Robotic AI</a>
+                        <a href="#prompt-engineering"><i class="fas fa-code"></i> Prompt Engineering</a>
+                        <a href="#cyber-security"><i class="fas fa-shield-alt"></i> Cyber Security</a>
+                        <a href="#ethical-hacking"><i class="fas fa-user-secret"></i> Ethical Hacking</a>
+                        <a href="#python-dev"><i class="fab fa-python"></i> Python Development</a>
+                    </div>
+                </li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><a href="#policies" class="nav-link"><i class="fas fa-file-contract"></i> Policies</a></li>
+            </ul>
+            
+            <div class="auth-buttons">
+                <button class="btn signup-btn" id="signupBtn"><i class="fas fa-user-plus"></i> Sign Up</button>
+                <button class="btn login-btn" id="loginBtn"><i class="fas fa-sign-in-alt"></i> Login</button>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="tech-grid"></div>
+            <h1 class="hero-title">JENSSAIR <span class="tech-text">TECHNOLOGIES</span></h1>
+            <p class="hero-subtitle">Pioneering the Future with Advanced AI & Data Solutions</p>
+            <p class="hero-description">We deliver cutting-edge technology solutions that transform businesses and drive innovation in the digital era.</p>
+            <div class="hero-buttons">
+                <button class="btn primary-btn">Explore Solutions <i class="fas fa-arrow-right"></i></button>
+                <button class="btn secondary-btn">Contact Us <i class="fas fa-comments"></i></button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <!-- NON-OVERLAPPING CIRCLES LAYOUT -->
+            <div class="floating-tech">
+                <!-- Top Row -->
+                <div class="tech-circle circle-1"><i class="fas fa-brain"></i></div>
+                <div class="tech-circle circle-2"><i class="fas fa-shield-alt"></i></div>
+                <!-- Middle Row -->
+                <div class="tech-circle circle-3"><i class="fab fa-python"></i></div>
+                <div class="tech-circle circle-4"><i class="fas fa-robot"></i></div>
+                <!-- Bottom Row -->
+                <div class="tech-circle circle-5"><i class="fas fa-database"></i></div>
+                <div class="tech-circle circle-6"><i class="fas fa-code"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="section-header">
+            <h2 class="section-title">About <span class="tech-text">Us</span></h2>
+            <p class="section-subtitle">Leading the technological revolution with expertise and innovation</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Jenssair Technologies is a premier high-tech solutions provider specializing in advanced artificial intelligence, data analytics, cybersecurity, and software development. Our team of experts combines cutting-edge technology with innovative thinking to deliver solutions that drive business transformation.</p>
+                <p>With a focus on emerging technologies, we help organizations navigate the complexities of digital transformation and leverage data-driven insights to achieve competitive advantage.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-number">150+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">40+</div>
+                        <div class="stat-label">Expert Engineers</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-visual">
+                <div class="hologram-container">
+                    <div class="hologram">
+                        <div class="hologram-line line-1"></div>
+                        <div class="hologram-line line-2"></div>
+                        <div class="hologram-line line-3"></div>
+                        <div class="hologram-center">
+                            <i class="fas fa-atom"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="section-header">
+            <h2 class="section-title">Our <span class="tech-text">Services</span></h2>
+            <p class="section-subtitle">Comprehensive high-tech solutions for the digital age</p>
+        </div>
+        <div class="services-grid">
+            <!-- Service cards will be generated by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="section-header">
+            <h2 class="section-title">Contact <span class="tech-text">Us</span></h2>
+            <p class="section-subtitle">Get in touch with our team of experts</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Our Location</h3>
+                        <p>Tech Innovation Hub, Silicon Valley, CA 94000</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Phone Number</h3>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email Address</h3>
+                        <p>info@jenssairtech.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Working Hours</h3>
+                        <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Policies Section -->
+    <section class="section policies" id="policies">
+        <div class="section-header">
+            <h2 class="section-title">Our <span class="tech-text">Policies</span></h2>
+            <p class="section-subtitle">Commitment to excellence and integrity</p>
+        </div>
+        <div class="policies-content">
+            <div class="policy-cards">
+                <div class="policy-card">
+                    <div class="policy-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Privacy Policy</h3>
+                    <p>We are committed to protecting your personal data and ensuring your privacy with state-of-the-art security measures.</p>
+                    <a href="#" class="policy-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="policy-card">
+                    <div class="policy-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h3>Terms of Service</h3>
+                    <p>Clear and transparent terms that govern our services, ensuring a seamless experience for all our clients.</p>
+                    <a href="#" class="policy-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="policy-card">
+                    <div class="policy-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Ethical Guidelines</h3>
+                    <p>We adhere to strict ethical standards in AI development and data handling to ensure responsible technology use.</p>
+                    <a href="#" class="policy-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo">
+                    <div class="logo-text">JENSSAIR</div>
+                    <div class="logo-subtitle">TECHNOLOGIES</div>
+                </div>
+                <p class="footer-tagline">Innovating the future, one solution at a time.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Data Analytics</a></li>
+                        <li><a href="#">AI Engineering</a></li>
+                        <li><a href="#">Cybersecurity</a></li>
+                        <li><a href="#">Python Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#policies">Policies</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Jenssair Technologies. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-sign-in-alt"></i> Login</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form id="loginForm">
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="form-options">
+                        <label>
+                            <input type="checkbox"> Remember me
+                        </label>
+                        <a href="#" class="forgot-password">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="btn primary-btn full-width">Login <i class="fas fa-sign-in-alt"></i></button>
+                    <div class="divider">
+                        <span>Or login with</span>
+                    </div>
+                    <div class="social-login">
+                        <button type="button" class="social-btn google"><i class="fab fa-google"></i> Google</button>
+                        <button type="button" class="social-btn github"><i class="fab fa-github"></i> GitHub</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div class="modal" id="signupModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-user-plus"></i> Create Account</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form id="signupForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Confirm Password" required>
+                    </div>
+                    <div class="form-options">
+                        <label>
+                            <input type="checkbox" required> I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn primary-btn full-width">Create Account <i class="fas fa-user-plus"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

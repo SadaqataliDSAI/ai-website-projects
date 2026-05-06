@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Writing Tools | Write smarter. Faster. Better.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <div class="logo-icon">AI</div>
+                    <div class="logo-text">
+                        <h1>AI Writing Tools</h1>
+                        <p class="tagline">Write smarter. Faster. Better.</p>
+                    </div>
+                </div>
+                
+                <div class="nav-links">
+                    <a href="#tools" class="nav-link">Tools</a>
+                    <a href="#premium" class="nav-link">Premium</a>
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="auth-buttons">
+                        <button class="btn btn-login" id="login-btn">
+                            <i class="fas fa-sign-in-alt"></i> Login
+                        </button>
+                        <button class="btn btn-signup" id="signup-btn">
+                            <i class="fas fa-user-plus"></i> Sign Up
+                        </button>
+                    </div>
+                </div>
+                
+                <button class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 class="hero-title">Revolutionize Your Writing with <span class="gradient-text">AI Power</span></h2>
+                    <p class="hero-subtitle">Professional writing tools powered by advanced artificial intelligence. Enhance your productivity and creativity.</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">50K+</span>
+                            <span class="stat-label">Users</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">Tools</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">99%</span>
+                            <span class="stat-label">Accuracy</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="visual-card">
+                        <div class="visual-content">
+                            <div class="ai-chip">AI POWERED</div>
+                            <h3>Smart Writing Assistant</h3>
+                            <p>Transform your text with cutting-edge AI technology</p>
+                            <div class="visual-animation">
+                                <div class="pulse-dot"></div>
+                                <div class="pulse-ring"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="tools-section" id="tools">
+        <div class="container">
+            <div class="section-header">
+                <h2>AI Writing Tools</h2>
+                <p>Choose from our suite of powerful AI writing tools</p>
+            </div>
+            
+            <div class="tools-grid">
+                <div class="tool-card" data-tool="rewriter">
+                    <div class="tool-icon"><i class="fas fa-sync-alt"></i></div>
+                    <h3>AI Paragraph Rewriter</h3>
+                    <p>Rewrite paragraph using synonyms and sentence reshaping</p>
+                    <button class="card-btn" data-tool="rewriter">Open Tool</button>
+                </div>
+                <div class="tool-card" data-tool="shortener">
+                    <div class="tool-icon"><i class="fas fa-compress-alt"></i></div>
+                    <h3>Sentence Shortener</h3>
+                    <p>Shorten text without changing meaning</p>
+                    <button class="card-btn" data-tool="shortener">Open Tool</button>
+                </div>
+                <div class="tool-card" data-tool="grammar">
+                    <div class="tool-icon"><i class="fas fa-check-double"></i></div>
+                    <h3>Grammar Checker</h3>
+                    <p>Detect and highlight basic grammar mistakes</p>
+                    <button class="card-btn" data-tool="grammar">Open Tool</button>
+                </div>
+                <div class="tool-card" data-tool="plagiarism">
+                    <div class="tool-icon"><i class="fas fa-search"></i></div>
+                    <h3>Plagiarism Checker</h3>
+                    <p>Show simulated originality percentage</p>
+                    <button class="card-btn" data-tool="plagiarism">Open Tool</button>
+                </div>
+                <div class="tool-card" data-tool="email">
+                    <div class="tool-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>AI Email Writer</h3>
+                    <p>Generate professional email format</p>
+                    <button class="card-btn" data-tool="email">Open Tool</button>
+                </div>
+                <div class="tool-card" data-tool="bio">
+                    <div class="tool-icon"><i class="fas fa-user-tie"></i></div>
+                    <h3>AI Bio Generator</h3>
+                    <p>Generate short professional bio</p>
+                    <button class="card-btn" data-tool="bio">Open Tool</button>
+                </div>
+                <div class="tool-card" data-tool="caption">
+                    <div class="tool-icon"><i class="fas fa-hashtag"></i></div>
+                    <h3>AI Caption Generator</h3>
+                    <p>Generate Instagram & LinkedIn captions</p>
+                    <button class="card-btn" data-tool="caption">Open Tool</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Plans -->
+    <section class="premium-section" id="premium">
+        <div class="container">
+            <div class="section-header">
+                <h2>Choose Your Plan</h2>
+                <p>Upgrade to unlock premium features and unlimited access</p>
+            </div>
+            
+            <div class="plans-grid">
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Mobile</h3>
+                        <div class="plan-price">
+                            <span class="price">$9.99</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p class="plan-desc">Perfect for individuals on the go</p>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check-circle"></i> All 7 AI Tools</li>
+                        <li><i class="fas fa-check-circle"></i> Mobile App Access</li>
+                        <li><i class="fas fa-check-circle"></i> 10,000 words/month</li>
+                        <li><i class="fas fa-check-circle"></i> Basic Support</li>
+                        <li><i class="fas fa-times-circle"></i> Team Collaboration</li>
+                        <li><i class="fas fa-times-circle"></i> Priority Support</li>
+                    </ul>
+                    <button class="btn btn-plan-select">Get Started</button>
+                </div>
+                
+                <div class="plan-card featured">
+                    <div class="plan-badge">Most Popular</div>
+                    <div class="plan-header">
+                        <h3>Desktop</h3>
+                        <div class="plan-price">
+                            <span class="price">$19.99</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p class="plan-desc">For professionals and creators</p>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check-circle"></i> All 7 AI Tools</li>
+                        <li><i class="fas fa-check-circle"></i> Desktop Application</li>
+                        <li><i class="fas fa-check-circle"></i> Unlimited Words</li>
+                        <li><i class="fas fa-check-circle"></i> Priority Support</li>
+                        <li><i class="fas fa-check-circle"></i> Advanced Analytics</li>
+                        <li><i class="fas fa-check-circle"></i> Export Options</li>
+                    </ul>
+                    <button class="btn btn-plan-select featured-btn">Get Started</button>
+                </div>
+                
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Business</h3>
+                        <div class="plan-price">
+                            <span class="price">$49.99</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p class="plan-desc">For teams and organizations</p>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check-circle"></i> All 7 AI Tools</li>
+                        <li><i class="fas fa-check-circle"></i> 5 Team Members</li>
+                        <li><i class="fas fa-check-circle"></i> Unlimited Words</li>
+                        <li><i class="fas fa-check-circle"></i> 24/7 Priority Support</li>
+                        <li><i class="fas fa-check-circle"></i> API Access</li>
+                        <li><i class="fas fa-check-circle"></i> Custom Branding</li>
+                    </ul>
+                    <button class="btn btn-plan-select">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful Features</h2>
+                <p>Everything you need for professional writing</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Real-time Processing</h3>
+                    <p>Instant AI-powered results with minimal latency</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure & Private</h3>
+                    <p>Your data is encrypted and never stored</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync"></i>
+                    </div>
+                    <h3>Multi-platform</h3>
+                    <p>Access from desktop, tablet, or mobile</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Advanced Analytics</h3>
+                    <p>Track your writing progress and improvements</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About AI Writing Tools</h2>
+                    <p>We're revolutionizing the way people write with cutting-edge artificial intelligence technology. Our platform combines advanced NLP algorithms with user-friendly interfaces to provide professional writing assistance.</p>
+                    <p>Founded in 2023, we've helped over 50,000 users improve their writing, save time, and enhance their communication skills.</p>
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>50,000+</h4>
+                                <p>Active Users</p>
+                            </div>
+                        </div>
+                        <div class="about-stat">
+                            <i class="fas fa-file-alt"></i>
+                            <div>
+                                <h4>10M+</h4>
+                                <p>Documents Processed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="tech-circle">
+                        <div class="circle-layer"></div>
+                        <div class="circle-layer"></div>
+                        <div class="circle-layer"></div>
+                        <div class="circle-center">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">AI</div>
+                        <div>
+                            <h3>AI Writing Tools</h3>
+                            <p>Write smarter. Faster. Better.</p>
+                        </div>
+                    </div>
+                    <p class="footer-desc">Professional AI writing tools for individuals and businesses.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Tools</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" data-tool="rewriter">AI Rewriter</a></li>
+                        <li><a href="#" data-tool="shortener">Sentence Shortener</a></li>
+                        <li><a href="#" data-tool="grammar">Grammar Checker</a></li>
+                        <li><a href="#" data-tool="plagiarism">Plagiarism Checker</a></li>
+                        <li><a href="#" data-tool="email">Email Writer</a></li>
+                        <li><a href="#" data-tool="bio">Bio Generator</a></li>
+                        <li><a href="#" data-tool="caption">Caption Generator</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#premium">Pricing</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">API Documentation</a></li>
+                        <li><a href="#">Status</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 AI Writing Tools. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tool Modal -->
+    <div id="tool-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title">AI Paragraph Rewriter</h2>
+                <p id="modal-desc">Rewrite paragraph using synonyms and sentence reshaping</p>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="input-section">
+                    <div class="textarea-header">
+                        <label for="modal-input">Your Text</label>
+                        <div class="char-counter">
+                            <span id="modal-char-count">0</span> characters
+                        </div>
+                    </div>
+                    <textarea id="modal-input" placeholder="Enter your text here..."></textarea>
+                    <div class="button-group">
+                        <button id="modal-clear-btn" class="btn secondary">Clear</button>
+                        <button id="modal-generate-btn" class="btn primary">
+                            <span class="btn-text">Generate</span>
+                            <div class="loading-spinner"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="output-section">
+                    <div class="output-header">
+                        <h3>Result</h3>
+                        <button id="modal-copy-btn" class="btn small">Copy</button>
+                    </div>
+                    <div class="output-content" id="modal-output">
+                        <div class="placeholder">
+                            Your generated content will appear here...
+                        </div>
+                    </div>
+                    <div class="tool-specific-info" id="modal-tool-info"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Auth Modal -->
+    <div id="auth-modal" class="modal auth-modal">
+        <div class="modal-content auth-content">
+            <div class="auth-header">
+                <h2 id="auth-title">Welcome Back</h2>
+                <p id="auth-subtitle">Login to your account</p>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="auth-body">
+                <form id="auth-form">
+                    <div class="form-group">
+                        <label for="auth-email">Email Address</label>
+                        <input type="email" id="auth-email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="auth-password">Password</label>
+                        <input type="password" id="auth-password" placeholder="Enter your password" required>
+                    </div>
+                    <div class="form-options">
+                        <label class="checkbox">
+                            <input type="checkbox" id="remember-me">
+                            <span>Remember me</span>
+                        </label>
+                        <a href="#" class="forgot-password">Forgot password?</a>
+                    </div>
+                    <button type="submit" class="btn btn-auth-submit" id="auth-submit-btn">Sign In</button>
+                    <div class="auth-divider">
+                        <span>Or continue with</span>
+                    </div>
+                    <div class="social-auth">
+                        <button type="button" class="btn btn-social google">
+                            <i class="fab fa-google"></i> Google
+                        </button>
+                        <button type="button" class="btn btn-social github">
+                            <i class="fab fa-github"></i> GitHub
+                        </button>
+                    </div>
+                    <p class="auth-switch" id="auth-switch-text">
+                        Don't have an account? <a href="#" id="auth-switch-link">Sign up</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
